@@ -4,22 +4,22 @@ public class Factorial {
 
     public static void main(String[] args) {
 
-        int j;
-        int f;
+        int a;
+        int b;
 
-        j = 8;
+        a = 8;
 
         int i;
-        if (j == 0) {
-            f = 1;
+        if (a == 0) {
+            b = 1;
         } else {
-            f = 1;
-            for (i = j; i >= 1; i--) {
-                f = f * i;
+            b = 1;
+            for (i = a; i >= 1; i--) {
+                b = b * i;
             }
         }
 
-        System.out.println(f);
+        System.out.println(b);
 
     }
 
